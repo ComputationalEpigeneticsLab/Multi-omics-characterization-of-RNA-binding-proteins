@@ -12,7 +12,7 @@ We shared the scripts we used for the analyses of the data.
 Scripts: this folder contains several scripts used for the analyses.
 test: this folder contains adjusted scripts and test files for disease comorbidities and drug screening
 
-The script for disease comorbidities was run by the command line as follow:
+The script for disease comorbidities was run by the command line as follow:</br>
 ```python disease_distance.py --g1 RBP_SARS_id.txt```
 --g1 file containing EntreZ ID for the key genes interacting with SARS-Cov-2
 --g2 file containing EntreZ ID for diseases-related genes, this parameter defaults to the file in the disease folder
