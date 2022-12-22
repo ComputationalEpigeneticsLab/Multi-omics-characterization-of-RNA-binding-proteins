@@ -1,6 +1,6 @@
 # Multi-omics-characterization-of-RNA-binding-proteins
 ## Multi-omics characterization of RNA binding proteins reveals disease comorbidities and potential drugs in COVID-19
-Jiwei Pan1, Yueying Gao1, Huirui Han1, Tao Pan1, Jing Guo1, Si Li1, Juan Xu2, Yongsheng Li1
+Jiwei Pan, Yueying Gao, Huirui Han, Tao Pan, Jing Guo, Si Li, Juan Xu, Yongsheng Li
 
 ### Highlights:
 	Transcriptomic and proteomic profiles of 178 COVID-19 patients were profiled and analyzed.
