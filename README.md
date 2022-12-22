@@ -14,12 +14,12 @@ test: this folder contains adjusted scripts and test files for disease comorbidi
 
 The script for disease comorbidities was run by the command line as follow:</br>
 ```python disease_distance.py --g1 RBP_SARS_id.txt```
---g1 file containing EntreZ ID for the key genes interacting with SARS-Cov-2
---g2 file containing EntreZ ID for diseases-related genes, this parameter defaults to the file in the disease folder
+--g1 file containing EntreZ ID for the key genes interacting with SARS-Cov-2</br>
+--g2 file containing EntreZ ID for diseases-related genes, this parameter defaults to the file in the disease folder</br>
 -n file containing the network edgelist, this parameter defaults to 'interactome.tsv'
 
-The script for drug screening was run by the command line as follow:
+The script for drug screening was run by the command line as follow:</br>
 ```Rscript drug_optimization.R drug_humanP.txt drugID.txt virus_mcode_select```
-drug_humanP.txt: file containing interaction between drugs and targets
-drugID.txt: file containing all drugs included in drug_humanP.txt
-virus_mcode_select: file containing SARS-Cov-2 related proteins in this folder
+drug_humanP.txt: file containing interaction between drugs and targets</br>
+drugID.txt: file containing all drugs included in drug_humanP.txt</br>
+virus_mcode_select: file containing SARS-Cov-2 related proteins in this folder</br>
