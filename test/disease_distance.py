@@ -168,7 +168,7 @@ def calc_set_pair_distances(G,given_gene_set1,given_gene_set2):
     mean_shortest_distance = np.mean(all_distances)
     return mean_shortest_distance
 
-path = "disease299/"
+path = "disease/"
 files = os.listdir(path)
 
 #Alert add 2022-05
