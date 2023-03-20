@@ -230,7 +230,7 @@ for (k in 1:length(distance_actual[,1])) {
   Z_score<-(distance_exact-distance_mean)/distance_std
   
   
-  less_num<-length(which(distance_random_final[k,3:1002]>distance_actual[k,3]))
+  less_num<-length(which(distance_random_final[k,3:1002]<distance_actual[k,3]))
   
   P_value<-less_num/1000
   
